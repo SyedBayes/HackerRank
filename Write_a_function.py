@@ -1,7 +1,7 @@
 def is_leap(year):
     leap = False
 
-    if (year % 4 == 0):
+    if (year % 4 == 0 or year % 100 ==):
         leap = True
 
     return leap
